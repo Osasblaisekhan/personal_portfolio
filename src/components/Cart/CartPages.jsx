@@ -15,8 +15,7 @@ const CartPages = () => {
 
       <Routes>
         <Route path='/' exact element={<Home />}/>
-        <Route path='/' exact element={<Home />}/>
-        <Route path='/' exact element={<Home />}/>
+       
 
         <Route path='/cart' element={<ShoppingCart />}/>
       </Routes>

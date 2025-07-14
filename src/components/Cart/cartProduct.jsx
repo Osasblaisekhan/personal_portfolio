@@ -20,7 +20,7 @@ const CartProduct = ({ product }) => {
         <div>
             <div key={product.id} className='h-[480px] p-5 bg-amber-400 flex flex-col gap-3 items-center justify-center'>
                 <h3>{product.id}</h3>
-                <img src={product.images} alt="" />
+                <img src={product.thumbnail} alt="" />
                 <h3>${product.price}</h3>
 
                 <div className='flex gap-5 items-center justify-center'>

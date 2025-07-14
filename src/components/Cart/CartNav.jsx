@@ -14,17 +14,7 @@ const CartNav = () => {
                 </Link>
             </li>
 
-             <li>
-                <Link to={'/osas/'} className='text-2xl text-amber-200 font-bold'>
-                Home
-                </Link>
-            </li>
-
-             <li>
-                <Link to={'/osas'} className='text-2xl text-amber-200 font-bold'>
-                Home
-                </Link>
-            </li>
+             
         </ul>
 
        <Link to={'/osas/cart'}>
